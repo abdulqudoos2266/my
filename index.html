@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abdul Qudoos - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
@@ -51,6 +51,22 @@
           <h3>Excel Expert</h3>
           <p>Creating advanced Excel models, macros, and data analysis tools.</p>
         </div>
+        <!-- New Skills -->
+        <div class="skill">
+          <i class="fas fa-laptop-code"></i>
+          <h3>IT Expert</h3>
+          <p>Providing comprehensive IT solutions and support for businesses.</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-code"></i>
+          <h3>C# and MySQL Expert</h3>
+          <p>Developing applications and managing databases using C# and MySQL.</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-cogs"></i>
+          <h3>Software Developer</h3>
+          <p>Designing and developing software solutions tailored to client needs.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -60,16 +76,32 @@
       <h2>Contact Me</h2>
       <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
       <div class="contact-links">
-        <a href="mailto:abdulqudoos@example.com"><i class="fas fa-envelope"></i> abdulqudoos@example.com</a>
-        <a href="https://linkedin.com/in/abdulqudoos" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="https://github.com/abdulqudoos" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:abdulqudoosdeveloper@gmail.com"><i class="fas fa-envelope"></i> Email </a>
+        <a href="https://www.linkedin.com/in/abdul-qudoos-896a3527b/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn </a>
+        <a href="https://github.com/abdulqudoos2266" target="_blank"><i class="fab fa-github"></i> GitHub</a>
       </div>
+      <!-- Contact Form -->
+      <form id="contact-form" action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>&copy; 2023 Abdul Qudoos. All rights reserved.</p>
+      <p>&copy; 2022 Abdul Qudoos. All rights reserved.</p>
     </div>
   </footer>
 </body>
